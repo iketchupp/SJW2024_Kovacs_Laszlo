@@ -116,6 +116,22 @@ table tbody tr td:first-child {
     cursor: pointer;
 }
 
+.footer-text {
+    font-family: "Marhey", sans-serif;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
+}
+
+.wave {
+    z-index: 1;
+    width: 100%;
+    position: relative;
+}
+
 @media (max-width: 992px) {
     .header h1 {
         font-size: 1.5rem;
